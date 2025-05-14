@@ -15,12 +15,12 @@ st.subheader('Jaya-Jaya Institut - Student Dropout Prediction')
 col1, col2 = st.columns(2)
 
 with col1 :
-    curricular_units_1st_sem_approved = st.number_input('Curricular Units 1st Sem Approved', min_value=0, max_value=30, value=8)
-    curricular_units_2nd_sem_approved = st.number_input('Curricular Units 2nd Sem Approved', min_value=0, max_value=30, value=12)
+    curricular_units_1st_sem_approved = st.number_input('Curricular Units 1st Sem Approved', min_value=0, max_value=30, value=3)
+    curricular_units_2nd_sem_approved = st.number_input('Curricular Units 2nd Sem Approved', min_value=0, max_value=30, value=2)
 
 with col2 :
-    curricular_units_1st_sem_grade = st.number_input('Curricular Units 1st Sem Grade', min_value=0, max_value=20, value=8)
-    curricular_units_2nd_sem_grade = st.number_input('Curricular Units 2nd Sem Grade', min_value=0, max_value=20, value=10)
+    curricular_units_1st_sem_grade = st.number_input('Curricular Units 1st Sem Grade', min_value=0, max_value=20, value=7)
+    curricular_units_2nd_sem_grade = st.number_input('Curricular Units 2nd Sem Grade', min_value=0, max_value=20, value=5)
 
 
 col1, col2, col3 = st.columns(3)
